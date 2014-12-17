@@ -39,55 +39,13 @@
     <![endif]-->
 </head>
 <body>
+<script>
+$(document).ready(function(){
+    var now = new Date();
+    $("#todays_date").html(now);
+});
+</script>
 <div class="col-md-10 col-md-offset-1" id="bodyContainer">
-
-<!-- This one in here is responsive menu for tablet and mobiles -->
-<!--<div class="responsive-navigation visible-sm visible-xs ">-->
-    <!--<a href="index.html#" class="menu-toggle-btn">-->
-        <!--<i class="fa fa-bars"></i>-->
-    <!--</a>-->
-    <!--<div class="responsive_menu">-->
-        <!--<ul class="main_menu">-->
-            <!--<li><a href="index.html">Home</a></li>-->
-            <!--<li><a href="index.html#">Events</a>-->
-                <!--<ul>-->
-                    <!--<li><a href="events-grid.html">Events Grid</a></li>-->
-                    <!--<li><a href="events-list.html">Events List</a></li>-->
-                    <!--<li><a href="event-single.html">Event Details</a></li>-->
-                <!--</ul>-->
-            <!--</li>-->
-            <!--<li><a href="index.html#">Courses</a>-->
-                <!--<ul>-->
-                    <!--<li><a href="courses.html">Course List</a></li>-->
-                    <!--<li><a href="course-single.html">Course Single</a></li>-->
-                <!--</ul>-->
-            <!--</li>-->
-            <!--<li><a href="index.html#">Blog Entries</a>-->
-                <!--<ul>-->
-                    <!--<li><a href="blog.html">Blog Grid</a></li>-->
-                    <!--<li><a href="blog-single.html">Blog Single</a></li>-->
-                    <!--<li><a href="blog-disqus.html">Blog Disqus</a></li>-->
-                <!--</ul>-->
-            <!--</li>-->
-            <!--<li><a href="index.html">Pages</a>-->
-                <!--<ul>-->
-                    <!--<li><a href="archives.html">Archives</a></li>-->
-                    <!--<li><a href="shortcodes.html">Shortcodes</a></li>-->
-                    <!--<li><a href="gallery.html">Our Gallery</a></li>-->
-                <!--</ul>-->
-            <!--</li>-->
-            <!--<li><a href="contact.html">Contact</a></li>-->
-        <!--</ul> &lt;!&ndash; /.main_menu &ndash;&gt;-->
-        <!--<ul class="social_icons">-->
-            <!--<li><a href="index.html#"><i class="fa fa-facebook"></i></a></li>-->
-            <!--<li><a href="index.html#"><i class="fa fa-twitter"></i></a></li>-->
-            <!--<li><a href="index.html#"><i class="fa fa-pinterest"></i></a></li>-->
-            <!--<li><a href="index.html#"><i class="fa fa-google-plus"></i></a></li>-->
-            <!--<li><a href="index.html#"><i class="fa fa-rss"></i></a></li>-->
-        <!--</ul> &lt;!&ndash; /.social_icons &ndash;&gt;-->
-    <!--</div> &lt;!&ndash; /.responsive_menu &ndash;&gt;-->
-<!--</div> &lt;!&ndash; /responsive_navigation &ndash;&gt;-->
-
 
     <header class="site-header">
         <div class="container">
@@ -112,14 +70,6 @@
                             <li><a href="#">Feedback</a></li>
                             <li><a href="#">Contact Us</a></li>
                         </ul> <!-- /.main-menu -->
-
-                        <!--<ul class="social-icons pull-right">-->
-                            <!--<li><a href="index.html#" data-toggle="tooltip" title="Facebook"><i class="fa fa-facebook"></i></a></li>-->
-                            <!--<li><a href="index.html#" data-toggle="tooltip" title="Twitter"><i class="fa fa-twitter"></i></a></li>-->
-                            <!--<li><a href="index.html#" data-toggle="tooltip" title="Pinterest"><i class="fa fa-pinterest"></i></a></li>-->
-                            <!--<li><a href="index.html#" data-toggle="tooltip" title="Google+"><i class="fa fa-google-plus"></i></a></li>-->
-                            <!--<li><a href="index.html#" data-toggle="tooltip" title="RSS"><i class="fa fa-rss"></i></a></li>-->
-                        <!--</ul> &lt;!&ndash; /.social-icons &ndash;&gt;-->
                 </nav> <!-- /.main-navigation -->
             </div> <!-- /.container -->
         </div> <!-- /.nav-bar-main -->
@@ -179,7 +129,7 @@
                 <div class="row" >
                 <div class="row" style="margin:3px;border:1px solid #B8C9DD;background-color: #DDE6EF;color:#006A9D; font-size: 11px;">
                     <div class="col-md-8">The Ministry Of Community Development Gender and Children</div>
-                    <div class="col-md-4">date</div>
+                    <div class="col-md-4" id="todays_date">date</div>
                 </div>
                 </div>
                 <div class="row" style="padding:0px;">
