@@ -102,15 +102,15 @@
         <div class="nav-bar-main" role="navigation">
             <div class="container" style="background-image: url('images/tnz.jpg');background-repeat: repeat-x;"></div>
             <div class="container">
-                <nav class="main-navigation   col-md-offset-2" role="navigation"><!--visible-md visible-lg-->
+                <nav class="main-navigation clearfix " role="navigation"><!--visible-md visible-lg-->
                         <ul class="main-menu sf-menu">
-                            <li class="active"><a href="#">:: Home</a></li>
-                            <li><a href="#">:: About Us</a></li>
-                            <li><a href="#">:: NGO Profiles</a></li>
-                            <li><a href="#">:: NGO Board</a></li>
-                            <li><a href="#">:: Site Map</a></li>
-                            <li><a href="#">:: Feedback</a></li>
-                            <li><a href="#">:: Contact Us</a></li>
+                            <li class="active"><a href="#">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">NGO Profiles</a></li>
+                            <li><a href="#">NGO Board</a></li>
+                            <li><a href="#">Site Map</a></li>
+                            <li><a href="#">Feedback</a></li>
+                            <li><a href="#">Contact Us</a></li>
                         </ul> <!-- /.main-menu -->
 
                         <!--<ul class="social-icons pull-right">-->
@@ -226,38 +226,38 @@
                     </div>
                     <div class="row"style="font-size:10px;color:#000000;">
 
-                        <form class="form-horizontal" role="form" style="margin: 10px;">
-                            <div class="form-group">
-                                <label for="name" class="col-sm-4 control-label">Name</label>
-                                <div class="col-sm-6">
-                                    <input type="email"  id="name" class="form-control" placeholder="Email">
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label for="category" class="col-sm-4 control-label">Category</label>
-                                <div class="col-sm-6">
-                                    <select   id="category"  class="form-control"><option>All</option></select>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label for="region" class="col-sm-4 control-label">Region</label>
-                                <div class="col-sm-6">
-                                    <select   id="region" class="form-control" ></select>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label for="district" class="col-sm-4 control-label">District</label>
-                                <div class="col-sm-6">
-                                    <select   id="district" class="form-control"></select>
-                                </div>
-                            </div>
+                        <div class="contact-form clearfix" style="margin: 10px;">
+                            <p class="full-row">
+                            <span class="contact-label">
+                                <label for="name-id">Name:</label>
+                            </span>
+                                <input type="text" id="name-id" style="width:50%!important;" name="name-id">
+                            </p>
 
-                            <div class="form-group">
-                                <div class="col-sm-offset-2 col-sm-10">
-                                    <button type="submit" class="btn btn-default">Sign in</button>
-                                </div>
-                            </div>
-                        </form>
+                            <p class="full-row">
+                            <span class="contact-label">
+                                <label for="surname-idc">Category:</label>
+                            </span>
+                                <select  id="surname-idc" name="surname-id"><option>All</option></select>
+                            </p>
+                            <p class="full-row">
+                            <span class="contact-label">
+                                <label for="surname-idr">Region:</label>
+                            </span>
+                                <select  id="surname-idr" name="surname-id"><option>All</option></select>
+                            </p>
+                            <p class="full-row">
+                            <span class="contact-label">
+                                <label for="surname-idd">District</label>
+                            </span>
+                                <select  class="input-select" id="surname-idd" name="surname-id"><option>All</option></select>
+                            </p>
+
+                            <p class="full-row">
+                                <button type="submit" class="btn btn-default col-lg-offset-3">Search</button>
+                            </p>
+                        </div>
+
                     </div>
                 </div>
                 <div class="col-md-12" style="border: 1px solid #006A9D; background-color: #ffffff;margin-top:10px;margin-left: -10px;">
@@ -530,14 +530,14 @@
         <div class="container">
             <div class="">
                 <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
+                    <div class="col-md-12">
                         <ul class="footer-nav">
-                            <li><a href="#">:: Home</a></li>
-                            <li><a href="#">:: About Us</a></li>
-                            <li><a href="#">:: NGO Profiles</a></li>
-                            <li><a href="#">:: Site Map</a></li>
-                            <li><a href="#">:: Feedback</a></li>
-                            <li><a href="#">:: Contact Us</a></li>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">NGO Profiles</a></li>
+                            <li><a href="#"> Site Map</a></li>
+                            <li><a href="#"> Feedback</a></li>
+                            <li><a href="#">Contact Us</a></li>
                         </ul>
                     </div> <!-- /.col-md-7 -->
                 </div> <!-- /.row -->

@@ -216,10 +216,18 @@ blockquote,
 .contact-form input,
 .contact-form textarea,
 .course-search-form input,
+.contact-form select ,
 .course-search-form select {
   border-color: #d5dbe0 !important;
-}
 
+}
+select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: block;
+    width: 50%;
+}
 .search-form form input,
 .main-navigation,
 .main-menu li {
